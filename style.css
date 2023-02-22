@@ -73,7 +73,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   cursor: pointer;
   width: 100%;
   margin-bottom:10px;
-  
+
 }
 
 .cancel {
@@ -99,7 +99,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 /*   background-color: #f5c33a; */
   background: linear-gradient(21deg, rgba(228,167,0,1) 0%, rgba(255,210,88,1) 54%, rgba(245,195,58,1) 100%);
 
- 
+
   border-radius:50%;
   box-shadow: 5px 5px 20px -10px #ffd258;
 }
@@ -151,7 +151,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   }
   50%{
       border-bottom: 9px solid #e89e09;
-    
+
   }
   to {
       border-bottom: 3px solid #e89e09;
@@ -212,8 +212,8 @@ body {
 
  }
 
-  
-  
+
+
   @keyframes wave-animation {
 	  0% { transform: rotate( 0.0deg) }
 	 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
@@ -224,7 +224,7 @@ body {
 	 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
 	100% { transform: rotate( 0.0deg) }
   }
-  
+
 
 span {
 	padding-right: 15px;
@@ -276,11 +276,11 @@ container:hover{
 }
 h2{
 	color:white;
-	
+
 	font-size:30px;
 
 }
- 
+
 input { 
 	border: 0; 
 	padding: 15px; 
@@ -299,8 +299,8 @@ input {
 	background-color:#fff;
 	padding: 15px;
 	text-align:start
-	
-  
+
+
 }
 
 #bot {
@@ -316,8 +316,8 @@ p{
 	margin-left: 40px;
 	color:#000;
 	border-radius: 50px;
-	
-	
+
+
 }
 .response {
 	display: flex;
