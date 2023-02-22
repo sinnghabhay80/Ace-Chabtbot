@@ -11,7 +11,7 @@ html {
   font-size: 60px;
   margin-left: 20%;
   margin-top: 15%;
-	width: 20ch;
+	width: 17.5ch;
 	white-space: nowrap;
 	overflow: hidden;
 	border-right: 4px solid #212121;
@@ -37,15 +37,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 .open-button {
-  /* background-color: #555; */
+  background-color: #555;
   color: white;
-  /* padding: 16px 20px; */
+  padding: 16px 20px;
   border: none;
   cursor: pointer;
   opacity: 0.8;
   position: fixed;
   bottom: 23px;
-  right: -100px;
+  right: 28px;
   width: 280px;
 }
 
@@ -200,7 +200,7 @@ body {
 	/* background-color: rgba(223, 242, 247, .5); 
 	background-color: #4D4DFF; */
    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M1488 560L0 560 L0 353.91Q42.16 324.07%2c 72 366.23Q92.51 266.75%2c 192 287.26Q258.16 233.42%2c 312 299.59Q378.69 246.28%2c 432 312.97Q455.14 264.12%2c 504 287.26Q585.93 249.19%2c 624 331.12Q701.11 288.23%2c 744 365.33Q778.23 279.56%2c 864 313.79Q933.14 262.94%2c 984 332.08Q1041.84 317.91%2c 1056 375.75Q1089.12 288.87%2c 1176 321.98Q1251.23 277.21%2c 1296 352.44Q1346.55 282.99%2c 1416 333.53Q1431.71 277.24%2c 1488 292.95z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 442.83Q-6.15 364.68%2c 72 358.53Q106 320.53%2c 144 354.54Q194.08 332.62%2c 216 382.7Q300.18 346.88%2c 336 431.05Q358.24 381.29%2c 408 403.53Q434.8 358.32%2c 480 385.12Q532.8 365.93%2c 552 418.73Q594.05 388.78%2c 624 430.84Q691.94 378.78%2c 744 446.72Q764.46 395.18%2c 816 415.64Q858.78 338.42%2c 936 381.2Q960.62 333.81%2c 1008 358.43Q1061.11 339.53%2c 1080 392.64Q1136.95 377.6%2c 1152 434.55Q1157.76 368.31%2c 1224 374.08Q1252.62 330.7%2c 1296 359.32Q1353.32 344.64%2c 1368 401.96Q1409.37 371.32%2c 1440 412.69Q1459.61 360.3%2c 1512 379.91z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 474.17Q54.75 408.92%2c 120 463.67Q191.38 415.06%2c 240 486.44Q246.59 421.03%2c 312 427.63Q354.51 398.14%2c 384 440.66Q438.59 423.25%2c 456 477.84Q506.14 455.98%2c 528 506.12Q544.1 450.22%2c 600 466.31Q614.25 408.56%2c 672 422.82Q713.09 391.91%2c 744 433Q824.63 393.63%2c 864 474.25Q897.91 388.16%2c 984 422.08Q1055.97 374.05%2c 1104 446.02Q1145.24 415.25%2c 1176 456.49Q1257.19 417.68%2c 1296 498.87Q1319.25 450.12%2c 1368 473.37Q1419.56 404.93%2c 1488 456.48z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 556.18Q56.88 493.06%2c 120 549.94Q130.29 488.24%2c 192 498.53Q263.16 449.69%2c 312 520.85Q361.51 498.37%2c 384 547.88Q461.56 505.44%2c 504 583.01Q527.77 534.78%2c 576 558.56Q623.85 486.41%2c 696 534.26Q743.03 461.29%2c 816 508.33Q896.95 469.28%2c 936 550.23Q963.06 505.29%2c 1008 532.35Q1028.71 481.06%2c 1080 501.77Q1123.65 473.42%2c 1152 517.07Q1197.68 490.76%2c 1224 536.44Q1262.69 455.13%2c 1344 493.83Q1419.79 449.62%2c 1464 525.4z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-  height: 65%;
+  height: 100%;
   background-repeat: no-repeat;
 }
 .wave {
@@ -351,60 +351,4 @@ width:fit-content
 		width: 75vw;
 		margin: 10vw;
 	}
-}
-
-/* CSS for round button */
-
-/* body {
-  background-color: #20826c;
-} */
-
-/* nav {
-  padding: 40px;
-} */
-
-nav li {
-  float: left;
-  font-size: 2em;
-  margin-right: 40px;
-  line-height: 80px;
-  position: relative;
-  text-align: center;
-}
-nav li a {
-  background-color: #4C4CC9;
-  color: #20826c;
-  display: block;
-  height: 80px;
-  position: relative;
-  text-decoration: none;
-  width: 80px; 
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -moz-transition: color 0.1s;
-  -o-transition: color 0.1s;
-  -webkit-transition: color 0.1s;
-  transition: color 0.1s;
-}
-nav li a i {
-  position: relative;
-  z-index: 1;
-}
-nav li a .inner {
-  background-color: white;
-  display: block;
-  height: 0;
-  left: 50%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  width: 0;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -moz-transition: all 0.1s;
-  -o-transition: all 0.1s;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
 }
