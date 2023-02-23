@@ -59,7 +59,7 @@ const prompts = [
     "who is the ceo of xebia",
     "who heads the xebia globally",
   ],
-  ["departments of xebia", "domains of xebia", "service lines of xebia", "coe of xebia"],
+  ["departments of xebia", "domains of xebia", "service lines of xebia", "coe of xebia", "coe"],
   ["what is the checkin and checkout process for employees", "how to check in and check out", "check in and check out", "check in procedure", "procedure of check in"],
   ["what are the usage and access policies in xebia"],
   ["what are the core bussiness working hours here", "business hours"],
@@ -107,6 +107,7 @@ const prompts = [
    ["address of pune office","pune office location","pune office adress"],
    ["address of bengaluru office","bengaluru office location","bengaluru office adress"],
    ["address of hyderabad office","hyderabad office location","hyderabad office adress"],
+   ["learning and development", "learning", "courses", "certification", "online courses", "skill enhancement coures", "skill enhancement", ],
 ];
 
 // Possible responses, in corresponding order
@@ -152,7 +153,7 @@ const replies = [
     "Procedure for getting in touch with IT department if quite simple, in some few easy steps:\n \n1. Open the Xenie app for Android or the Xenie web portal in case IOS/Laptops/Workstations.\n\n2. Login with your Xebia Email address and OTP over email.\n\n3. Go to the ticket section and create a new ticket based on your issue or the help required.\n4. The call will be raised, and a technical expert will be assigned for the task, the expert will connect to you in solving the issue/help required.\n This whole procedure is normally completed in a single working day.",
   ],
   [
-    "Xebia is built upon 4 core values: \n\nPeople First, Sharing Knowledge, Customer Intimacy, Quality Without Compromise",
+    "Xebia is built upon 4 core values: \n\n• People First\n• Sharing Knowledge\n• Customer Intimacy\n• Quality Without Compromise",
   ],
   [
     "Hello! I can offer help in the following areas: policies, admin, IT, onboarding, payroll, project assignment, manager etc.",
@@ -161,7 +162,7 @@ const replies = [
     "Our current global CEO is Mr. Anand Sahay.",
   ],
   [
-    "Here at Xebia, we are organized as follows:\n\nTransformations\nData and AI\nCloud Solutions\nSoftware Technology\nLow Code\nMicrosoft Solutions ",
+    "Here at Xebia, we are organized as follows:\n\n• Transformations\n• Data and AI\n• Cloud Solutions\n• Software Technology\n• Low Code\n• Microsoft Solutions ",
   ],
   [
     "Our employees are required to check-in every workday on the Zoho people portal for our employees.\n\nWe have 45 hours (about 2 days) per week policy, so you must work 9 hour per day in office  ",
@@ -188,7 +189,7 @@ const replies = [
   [
     "Netlink Digital Solutions, 47 Degrees, Appcino Technologies, SwissQ Consulting AG, coMakeIT, GoData Driven ",
   ],
-  [ "Xebia is built upon 4 principles : \n\nResponsibility, Entrepreneurship and Innovation, Sense of Urgency, Results",],
+  [ "Xebia is built upon 4 principles : \n\n• Responsibility\n• Entrepreneurship and Innovation\n• Sense of Urgency\n• Results",],
   ["No, you can't use your personal laptops in the office."],
   ["It usually depends on the client/project you are working on and/or your manager."],
   ["This is confidential information and cannot be shared with the people normally. Please contact your recruitment manager or you People Business Partner for extended information."],
@@ -206,6 +207,7 @@ const replies = [
   ["Sky Belvedere, Ground floor, Mhada Colony, Viman Nagar, Pune, Maharashtra 411006, India"],
   ["6th Floor, The HIVE Workspaces, VR Bengaluru, ITPL Main Rd, Devasandra Industrial Estate, Bengaluru, Karnataka 560048"],
   ["Aurobindo Galaxy, 9th Floor (A - Wing), HiTech City Main Road TSIIC, Raidurg Panmaktha, Hyderabad, Telangana 500081"],
+  ["contact to Mr. Arpit Miglani(Manager - Alliance & Strategy) through teams or contact Xebia Academy."],
 ];
 
 // Random for any other user input
