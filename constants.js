@@ -36,6 +36,8 @@ const prompts = [
     "what is your life insurance policy",
     "life insurance policy",
     "death policy",
+    "life insurance",
+    "insurance policy",
   ],
   [
     "what is the procedure for getting help from the it department in case of any technical help",
