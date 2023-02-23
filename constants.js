@@ -62,7 +62,7 @@ const prompts = [
   ["departments of xebia", "domains of xebia", "service lines of xebia", "coe of xebia", "coe"],
   ["what is the checkin and checkout process for employees", "how to check in and check out", "check in and check out", "check in procedure", "procedure of check in"],
   ["what are the usage and access policies in xebia"],
-  ["what are the core bussiness working hours here", "business hours"],
+  ["what are the core bussiness working hours here", "business hours", "core hours", "working hours"],
   [
     "what are the transportation facilities provided for the employees",
     "transport facilities",
