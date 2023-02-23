@@ -198,7 +198,7 @@ const replies = [
   ["Our headquarters is now shifted from Hilversum (the Netherlands) to Atlanta(US), which is currently being built, as we look forward to getting NASDAQ listed."],
   ["The human resource includes the people who constitute the workplace of a company or organization. In the corporate world, the roles and responsibility of HR is recruitment, training, administering, and developing company policies. The department of human resources in a company focuses on the most crucial asset of the company- its employees and will manage and shadow the employee life-cycle."],
   ["Yes, Company will shoulder expenses as per the submitted bills"],
-  ["I am sorry i don't have enough information related to onboarding process, but you can connect with following people for your queries \n XYZ@xebia.com \n ytt@xebia.com"],
+  ["Our Onboarding includes:\n• Onboarding Kit\n• Automation for Virtual Onboarding\n• Introduction\n• HRBP Conect\n• Manager Connect\n• XEBIC Session\n• Buddy Program\n• SPARK\n• Day 30, Day 60 & Day 90 Feedback\nIf there are any queries regarding the onboarding process please contact polina.singh@xebia.com"],
   ["The present headcount of employees in Xebia is 5600+ and counting. We always aspire to recruit the most talented individuals to our large collective global team."],
   ["We provide snacks and refreshments for employees in canteen for free and people can also bring their own lunch and eat in the canteen space as well."],
   ["• Log in to the ZOHO portal\n• Navigate to the 'Apply Leave' section\n• Fill in the leave related details and submit\n\nYou should also inform your reporting manager in advance."],
