@@ -1,40 +1,51 @@
 * {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;}
+  font-family: 'Poppins', sans-serif;
+}
 
 html {
-	height: 100%;
+  height: 100%;
 
 }
+
 .typewriter {
-  color:#fff;
+  color: #fff;
   font-size: 60px;
   margin-left: 20%;
   margin-top: 15%;
-	width: 17.5ch;
-	white-space: nowrap;
-	overflow: hidden;
-	border-right: 4px solid #212121;
-	animation: cursor 1s step-start infinite, 
+  width: 17.5ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #212121;
+  animation: cursor 1s step-start infinite,
     text 3s steps(10) alternate infinite;
 }
 
 @keyframes cursor {
-	0%, 100% { 
-    border-color: #212121; 
+
+  0%,
+  100% {
+    border-color: #212121;
   }
 }
 
 @keyframes text {
-	0% { 
-    width: 0; 
+  0% {
+    width: 0;
   }
-	100% { 
-    width: 21.5ch; 
+
+  100% {
+    width: 21.5ch;
   }
 }
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 .open-button {
   color: white;
@@ -53,7 +64,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   display: block;
   height: 80px;
   text-decoration: none;
-  width: 80px; 
+  width: 80px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 100%;
@@ -89,123 +100,140 @@ body {font-family: Arial, Helvetica, sans-serif;}
   border: none;
   cursor: pointer;
   width: 15%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   margin-left: 280px;
+  margin-top: 5px;
   border-radius: 100%;
   font-size: 15px;
 }
 
 .cancel {
   background-color: red;
-  
+
 }
 
 
-#app{
+#app {
   display: flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content:center;
-  height:100%;
-  width:100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
-#box{
+
+#box {
   display: flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 200px;
-  width:200px;
-  background: linear-gradient(21deg, rgba(228,167,0,1) 0%, rgba(255,210,88,1) 54%, rgba(245,195,58,1) 100%);
+  width: 200px;
+  background: linear-gradient(21deg, rgba(228, 167, 0, 1) 0%, rgba(255, 210, 88, 1) 54%, rgba(245, 195, 58, 1) 100%);
 
 
-  border-radius:50%;
+  border-radius: 50%;
   box-shadow: 5px 5px 20px -10px #ffd258;
 }
-.eyes{
-  display:flex;
-  align-items:center;
-  justify-content:center;
+
+.eyes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.eye{
+
+.eye {
   height: 40px;
-  width:40px;
-  background-color:white;
-  margin:5px;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  box-shadow: 0px 0px 5px 0 rgba(0,0,0,0.15) 
+  width: 40px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.15)
 }
-.eyeball{
-  height:20px;
-  width:20px;
-  background-color:black;
-  border-radius:50%;  
+
+.eyeball {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
   animation: eyeFramesAnim 1s ease infinite;
 
 }
-.smile-container{
-  display:flex;
-  align-items:center;
-  justify-content:center;
+
+.smile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.smile{
-  height:50px;
-  width:80px;
-  background:linear-gradient(0deg, rgba(255,255,255,0) 50%, rgba(245,195,58,0) 50%);
-  border-radius:50%;
-  display:flex;
-  align-items:flex-end;
-  justify-content:center;
+
+.smile {
+  height: 50px;
+  width: 80px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 50%, rgba(245, 195, 58, 0) 50%);
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   border-bottom: 6px solid #e89e09;
   animation: forSmile 0.8s ease infinite
 }
 
-@keyframes forSmile{
-  from{
-      border-bottom: 3px solid #e89e09;
+@keyframes forSmile {
+  from {
+    border-bottom: 3px solid #e89e09;
   }
-  50%{
-      border-bottom: 9px solid #e89e09;
+
+  50% {
+    border-bottom: 9px solid #e89e09;
 
   }
+
   to {
-      border-bottom: 3px solid #e89e09;
+    border-bottom: 3px solid #e89e09;
   }
 }
 
-@keyframes eyeFramesAnim{
-  from{
+@keyframes eyeFramesAnim {
+  from {
     transform: translateX(-10px)
   }
-  20%{
+
+  20% {
     transform: translateX(10px)
   }
-  80%{
-        transform: translateX(0px)
+
+  80% {
+    transform: translateX(0px)
   }
-  to{
-        transform: translateX(-10px)
+
+  to {
+    transform: translateX(-10px)
   }
-  from{
+
+  from {
     align-items: left;
-    justify-content:flex-start;
+    justify-content: flex-start;
   }
-  30%{
+
+  30% {
     align-items: left;
-    justify-content:flex-start;
+    justify-content: flex-start;
   }
+
   50% {
-    align-items:center;
-  justify-content:center;
+    align-items: center;
+    justify-content: center;
   }
-  80%{
+
+  80% {
     align-items: right;
-    justify-content:flex-end;
+    justify-content: flex-end;
   }
-  100%{
+
+  100% {
     transform: scale(1.01)
   }
 }
@@ -219,140 +247,170 @@ body {
   height: 100%;
   background-repeat: no-repeat;
 }
+
+
 .wave {
-	animation-name: wave-animation;  
-	animation-duration: 1.5s;       
-	animation-iteration-count: infinite; 
-	transform-origin: 70% 70%;       
-	display: inline-block;
+  animation-name: wave-animation;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
 
- }
+}
 
 
 
-  @keyframes wave-animation {
-	  0% { transform: rotate( 0.0deg) }
-	 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-	 20% { transform: rotate(-8.0deg) }
-	 30% { transform: rotate(14.0deg) }
-	 40% { transform: rotate(-4.0deg) }
-	 50% { transform: rotate(10.0deg) }
-	 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-	100% { transform: rotate( 0.0deg) }
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
   }
+
+  10% {
+    transform: rotate(14.0deg)
+  }
+
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8.0deg)
+  }
+
+  30% {
+    transform: rotate(14.0deg)
+  }
+
+  40% {
+    transform: rotate(-4.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(0.0deg)
+  }
+
+  /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
 
 
 span {
-	padding-right: 15px;
-	padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .container {
-	display: flex;
+  display: flex;
   justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	background-color:#E0FFFF;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #E0FFFF;
   border-radius: 20%;
 }
-::-webkit-scrollbar
-{
-	background-color:#fff;
-	width:1vh;
-	border-radius:1px;
-	overflow-x: hidden;
+
+::-webkit-scrollbar {
+  background-color: #fff;
+  width: 1vh;
+  border-radius: 1px;
+  overflow-x: hidden;
 }
-::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color:#4D4DFF;
-	width:10px;
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #4D4DFF;
+  width: 10px;
 
 }
-container:hover{
+
+container:hover {
   background-color: #4D4DFF;
 }
 
 .chat {
-	height: 450px;
-	width: 25vw;
-	display: flex;
-	flex-direction: column;
+  height: 450px;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-	align-items: center;
-	background-color:blue;
-  transition: ease-in-out;	
-	box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+  align-items: center;
+  background-color: blue;
+  transition: ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
   border-radius: 10%;
-} 
-
-::-webkit-input-placeholder { 
-	color: .711 
-}
-h2{
-	color:white;
-
-	font-size:30px;
-
 }
 
-input { 
-	border: 0; 
-	padding: 15px; 
-	margin-left: auto;
-	border-radius: 1px; 
-	outline: none;
-	width:100%;
+::-webkit-input-placeholder {
+  color: .711
+}
+
+h2 {
+  color: white;
+
+  font-size: 30px;
+
+}
+
+input {
+  border: 0;
+  padding: 15px;
+  margin-left: auto;
+  border-radius: 1px;
+  outline: none;
+  width: 100%;
 }
 
 .messages {
-	display: flex;
-	flex-direction: column;
-	overflow: scroll;
-	height: 90%;
-	width: 100%;
-	background-color:#fff;
-	padding: 15px;
-	text-align:start
-
-
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  height: 90%;
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  text-align: start
 }
 
 #bot {
-	margin-left: auto;
+  margin-left: auto;
 }
 
 .avatar {
-	height: 25px;
+  height: 25px;
 }
-p{
-	background-color:#E1EBEE;
-	padding:7px;
-	margin-left: 40px;
-	color:#000;
-	border-radius: 50px;
+
+p {
+  background-color: #E1EBEE;
+  padding: 7px;
+  margin-left: 40px;
+  color: #000;
+  border-radius: 50px;
 
 
 }
+
 .response {
-	display: flex;
-	align-items: center;
-	margin: 1%;
-	background-color:#5A4FCF;
-	padding: 5px;
-	border-radius: 25px;
-	color:#fff;
+  display: flex;
+  align-items: center;
+  margin: 1%;
+  background-color: #5A4FCF;
+  padding: 5px;
+  border-radius: 25px;
+  color: #fff;
 }
-#user{
-	background-color:blue;
-width:fit-content
 
+#user {
+  background-color: blue;
+  width: fit-content
 }
-#bot{
-	background-color:#E1EBEE;
-	color: #000;
+
+#bot {
+  background-color: #E1EBEE;
+  color: #000;
 
 }
 
@@ -361,13 +419,14 @@ width:fit-content
 
 @media only screen and (max-width: 980px) {
   .container {
-		flex-direction: column; 
-		justify-content: flex-start;
-	}
-	.chat {
-		width: 75vw;
-		margin: 10vw;
-	}
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .chat {
+    width: 75vw;
+    margin: 10vw;
+  }
 }
 
 nav li {
