@@ -43,6 +43,7 @@ const prompts = [
     "what is the procedure for getting help from the it department in case of any technical help",
     "it team help",
     "technical help",
+    "it help",
   ],
   [
     "tell me the core values of xebia",
@@ -58,6 +59,7 @@ const prompts = [
     "who is ceo",
     "who is the ceo of xebia",
     "who heads the xebia globally",
+    "ceo",
   ],
   ["departments of xebia", "domains of xebia", "service lines of xebia", "coe of xebia", "coe"],
   ["what is the checkin and checkout process for employees", "how to check in and check out", "check in and check out", "check in procedure", "procedure of check in"],
@@ -95,19 +97,31 @@ const prompts = [
    ["salary information", "ctc information", "what is my ctc", "what is my salary", "salary structure", "what is my salary structure", "explain salary structure", "salary", "ctc"],
    ["can you tell me the details for connecting to the hr department to get in depth information", "connect to hr department", "hr department connect", "talk to hr dept", "connect to hr dept", "hr dept connect", "hr dept", "hr department"],
    ["global presence of xebia", "tell me about the global presence of xebia", "geographic presence of xebia", "where is xebia globally present"],
-   ["headquarters of xebia", "where is the headquarters of xebia", "our headquarter", "our headquarters", "location of our headquarters"],
+   ["headquarters of xebia", "where is the headquarters of xebia", "our headquarter", "our headquarters", "location of our headquarters", "headquarters",],
    ["what is the role of hr in company", "role of hr in company", "role of hr", "job of hr"], 
    ["will the company shoulder relocation expenses", "relocation expenses","travelling expenses"], 
    ["i have doubts related onboarding process","onboarding problem", "onboarding process", "onboarding issue", "onboarding issues","onboarding related query"],
-   ["what is the total headcount of employees present in xebia", "total headcount", "headcount of employees", "how many employees in xebia", "headcount of xebia", "total no of employees", "total employees"],
+   ["what is the total headcount of employees present in xebia", "total headcount", "headcount of employees", "how many employees in xebia", "headcount of xebia", "total no of employees", "total employees", "headcount", "no of employee"],
    ["what is the canteen service", "tell me about the canteen service", "canteen service", "canteen refreshments"],
    ["how to apply for leaves","how to apply for leave", "applying for leaves", "procedure to apply for leaves", "leave application"],
    ["who is my buddy", "buddy", "my buddy"],
    ["address of gurgaon office","office address","gurgaon office location","office location"],
-   ["address of pune office","pune office location","pune office adress"],
-   ["address of bengaluru office","bengaluru office location","bengaluru office adress"],
-   ["address of hyderabad office","hyderabad office location","hyderabad office adress"],
+   ["address of pune office","pune office location","pune office adress", "pune address"],
+   ["address of bengaluru office","bengaluru office location","bengaluru office address", "bengaluru address"],
+   ["address of hyderabad office","hyderabad office location","hyderabad office address", "hyderabad address"],
    ["learning and development", "learning", "courses", "certification", "online courses", "skill enhancement coures", "skill enhancement", ],
+   [
+    "tell me something about your founder",
+    "who is our founder",
+    "who is founder",
+    "who is the founder of xebia",
+    "who founded xebia",
+    "who started xebia",
+    "founder of xebia",
+    "founder",
+    "when was xebia founded",
+    "xebia founder"
+  ],
 ];
 
 // Possible responses, in corresponding order
@@ -150,7 +164,7 @@ const replies = [
     "There are 2 types of Life Insurance policies that we offer for our employees.\n \n1. Employee Insurance - covers employees and their spouse and child \n\n2. Family Insurance - covers parents of the employee but either their own or their in-laws and no combinations can be formed. ",
   ],
   [
-    "Procedure for getting in touch with IT department if quite simple, in some few easy steps:\n \n1. Open the Xenie app for Android or the Xenie web portal in case IOS/Laptops/Workstations.\n\n2. Login with your Xebia Email address and OTP over email.\n\n3. Go to the ticket section and create a new ticket based on your issue or the help required.\n4. The call will be raised, and a technical expert will be assigned for the task, the expert will connect to you in solving the issue/help required.\n This whole procedure is normally completed in a single working day.",
+    "Procedure for getting in touch with IT department if quite simple, in some few easy steps:\n \n1. Open the Xenie app for Android or the Xenie web portal in case IOS/Laptops/Workstations.\n\n2. Login with your Xebia Email address and OTP over email.\n\n3. Go to the ticket section and create a new ticket based on your issue or the help required.\n\n4. The call will be raised, and a technical expert will be assigned for the task, the expert will connect to you in solving the issue/help required.\n\n This whole procedure is normally completed in a single working day.",
   ],
   [
     "Xebia is built upon 4 core values: \n\n• People First\n• Sharing Knowledge\n• Customer Intimacy\n• Quality Without Compromise",
@@ -208,6 +222,7 @@ const replies = [
   ["6th Floor, The HIVE Workspaces, VR Bengaluru, ITPL Main Rd, Devasandra Industrial Estate, Bengaluru, Karnataka 560048"],
   ["Aurobindo Galaxy, 9th Floor (A - Wing), HiTech City Main Road TSIIC, Raidurg Panmaktha, Hyderabad, Telangana 500081"],
   ["contact to Mr. Arpit Miglani(Manager - Alliance & Strategy) through teams or contact Xebia Academy."],
+  ["Xebia was founded in 2001 by Daan Teunissen"],
 ];
 
 // Random for any other user input
@@ -216,13 +231,4 @@ const alternative = [
   "Try again",
   "I don't understand :/",
   "We'll get back to you.."
-];
-
-// Whatever else you want :)
-
-const coronavirus = [
-  "Please stay home",
-  "Wear a mask",
-  "Fortunately, I don't have COVID",
-  "These are uncertain times",
 ];
