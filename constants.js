@@ -60,6 +60,9 @@ const prompts = [
     "who is the ceo of xebia",
     "who heads the xebia globally",
     "ceo",
+    "anand sahay",
+    "who is anand",
+    "who is anand sahay",
   ],
   ["departments of xebia", "domains of xebia", "service lines of xebia", "coe of xebia", "coe"],
   ["what is the checkin and checkout process for employees", "how to check in and check out", "check in and check out", "check in procedure", "procedure of check in"],
@@ -122,6 +125,15 @@ const prompts = [
     "when was xebia founded",
     "xebia founder"
   ],
+  ["reason behind every single dollar in xebia",
+   "reason behind every single dollar", 
+   "md sales",
+   "every single dollar",
+   "who is resposible for every single dollar",
+   "who is resposible for every single dollar in xebia",
+   
+  ],
+  ["townhall","what is townhall",],
 ];
 
 // Possible responses, in corresponding order
@@ -156,7 +168,7 @@ const replies = [
   ["That's ok", "I understand", "What do you want to talk about?"],
   ["Please say something :("],
   ["Haha!", "Good one!"],
-  ["The People's experience team is headed globally by Glory Nelson"],
+  ["People Business Partner for northern India region is Mr. Shivam Sharma."],
 
   ["An employee is applicable for pertaining a single leave per month"],
 
@@ -223,6 +235,8 @@ const replies = [
   ["Aurobindo Galaxy, 9th Floor (A - Wing), HiTech City Main Road TSIIC, Raidurg Panmaktha, Hyderabad, Telangana 500081"],
   ["contact to Mr. Arpit Miglani(Manager - Alliance & Strategy) through teams or contact Xebia Academy."],
   ["Xebia was founded in 2001 by Daan Teunissen"],
+  ["Ashok Fenn"],
+  ["Our CEO Mr. Anand Sahay addresses Xebians globally every quarter in the year on strategic business and general issues. It is the most important and prestigious event that is hosted by Xebia.",],
 ];
 
 // Random for any other user input
